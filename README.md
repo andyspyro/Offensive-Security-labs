@@ -8,6 +8,7 @@ I keep the parts that matter to me later: how I enumerated the target, what assu
 
 | Machine | Status I can support | What I worked on | Evidence I kept |
 |---|---|---|---|
+| [Blue](blue/README.md) | **Completed: user and root** | Windows 7, SMB enumeration, MS17-010 validation, EternalBlue, Meterpreter, WSL payload/networking decisions | Full penetration test report with attack chain and lessons learned |
 | [Paperwork](paperwork/README.md) | **Completed: user and root** | Source review, command injection, reverse shell, internal service discovery, arbitrary file write, SSH access, UNIX socket privilege escalation | Full retained penetration test report |
 | [Orion](orion/README.md) | In progress | Craft CMS 5.6.16, public PoC troubleshooting, Python, session state, CSRF, MySQL credential recovery | HTB screenshots and Python exploit work |
 | [Valentine](valentine/README.md) | User access obtained | SSH key handling, old RSA compatibility, Bash history, tmux lead | Screenshot showing SSH access as `hype` and retained shell history |
@@ -32,7 +33,7 @@ The short version is:
 
 ## Tools I have actually used
 
-Nmap, Burp Suite, curl, ffuf, Python, Ncat, OpenSSH, Searchsploit, PowerShell, WSL, Bash, Linux process tools, service inspection, and browser developer tools.
+Nmap, Burp Suite, curl, ffuf, Python, Ncat, OpenSSH, Searchsploit, smbclient, Metasploit Framework, Meterpreter, PowerShell, WSL, Bash, Linux process tools, service inspection, and browser developer tools.
 
 ## Earlier HTB activity
 
